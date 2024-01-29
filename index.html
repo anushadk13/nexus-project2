@@ -3,9 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Software tech Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    
 </head>
 <body>
-    hello!!
+    <nav id="desktop-nav">
+        <div class="logo">TecH Fine</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#product">Product</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">TecH Fine</div>
+          <div class="hamburger-menu">
+               <div class="hamburger-icon" onclick="tooglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about"onclick="tooglemenu()">About</a></li>
+                <li><a href="#product"onclick="tooglemenu()">Product</a></li>
+                <li><a href="#service"onclick="tooglemenu()">Service</a></li>
+                <li><a href="#contact"onclick="tooglemenu()">Contact</a></li>
+            </div>
+          </div>
+    </nav>
+    <script src="script.js"></script>
 </body>
 </html>
